@@ -1,0 +1,13 @@
+字典数组转模型
+
+将一个任意结构的字典和数组组成的结构, 转为模型.
+
+如果字典中存在某一key对应的value为数组, 且该数组中全为字典, 若是希望该数组中的字典全部转为某一子模型XXX, 则往guide添加key对应XXX
+
+如果模型中一个属性名被迫取别名(比如字典中存在description, 但是模型中只能取名为desc), 则往guide添加Name映射 description=>desc
+
+模型转字典
+
+将一个任意的模型转为字典与数组的结构
+
+如果模型中的某一属性想转为别的名字, 如上述的desc与description的反方向, 则同样往guide添加Name映射 description=>desc

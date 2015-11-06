@@ -8,12 +8,190 @@
 
 /* Begin PBXBuildFile section */
 		1DCF2666DB6D33E542DE6E2C /* libPods-SmartisanPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C40390238829C51492A6A6B2 /* libPods-SmartisanPlayer.a */; };
+		3B395D381BECC71300B801CF /* BaiduTingAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395CFA1BECC71300B801CF /* BaiduTingAPI.m */; };
+		3B395D391BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395CFC1BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.m */; };
+		3B395D3A1BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D001BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.m */; };
+		3B395D3B1BECC71300B801CF /* SPBaiduArtistGetAlbumListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D031BECC71300B801CF /* SPBaiduArtistGetAlbumListRequest.m */; };
+		3B395D3C1BECC71300B801CF /* SPBaiduArtistGetInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D051BECC71300B801CF /* SPBaiduArtistGetInfoRequest.m */; };
+		3B395D3D1BECC71300B801CF /* SPBaiduArtistGetListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D071BECC71300B801CF /* SPBaiduArtistGetListRequest.m */; };
+		3B395D3E1BECC71300B801CF /* SPBaiduArtistGetSongListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D091BECC71300B801CF /* SPBaiduArtistGetSongListRequest.m */; };
+		3B395D3F1BECC71300B801CF /* SPBaiduDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D0C1BECC71300B801CF /* SPBaiduDownloadRequest.m */; };
+		3B395D401BECC71300B801CF /* SPBaiduSearchCatalogSugRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D0F1BECC71300B801CF /* SPBaiduSearchCatalogSugRequest.m */; };
+		3B395D411BECC71300B801CF /* SPBaiduSearchHotRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D111BECC71300B801CF /* SPBaiduSearchHotRequest.m */; };
+		3B395D421BECC71300B801CF /* SPBaiduSearchMergeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D131BECC71300B801CF /* SPBaiduSearchMergeRequest.m */; };
+		3B395D431BECC71300B801CF /* SPBaiduRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D151BECC71300B801CF /* SPBaiduRequest.m */; };
+		3B395D441BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D191BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRespond.m */; };
+		3B395D451BECC71300B801CF /* SPBaiduArtistGetAlbumListRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D1C1BECC71300B801CF /* SPBaiduArtistGetAlbumListRespond.m */; };
+		3B395D461BECC71300B801CF /* SPBaiduArtistGetInfoRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D1E1BECC71300B801CF /* SPBaiduArtistGetInfoRespond.m */; };
+		3B395D471BECC71300B801CF /* SPBaiduArtistGetListRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D201BECC71300B801CF /* SPBaiduArtistGetListRespond.m */; };
+		3B395D481BECC71300B801CF /* SPBaiduArtistGetSongListRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D221BECC71300B801CF /* SPBaiduArtistGetSongListRespond.m */; };
+		3B395D491BECC71300B801CF /* SPBaiduDownloadRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D251BECC71300B801CF /* SPBaiduDownloadRespond.m */; };
+		3B395D4A1BECC71300B801CF /* SPBaiduSearchCatalogSugRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D271BECC71300B801CF /* SPBaiduSearchCatalogSugRespond.m */; };
+		3B395D4B1BECC71300B801CF /* SPBaiduSearchHotRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D291BECC71300B801CF /* SPBaiduSearchHotRespond.m */; };
+		3B395D4C1BECC71300B801CF /* SPBaiduSearchMergeRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D2B1BECC71300B801CF /* SPBaiduSearchMergeRespond.m */; };
+		3B395D4D1BECC71300B801CF /* SPBaiduRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D2D1BECC71300B801CF /* SPBaiduRespond.m */; };
+		3B395D4E1BECC71300B801CF /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D2F1BECC71300B801CF /* Foundation+Log.m */; };
+		3B395D4F1BECC71300B801CF /* MUAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D321BECC71300B801CF /* MUAudioPlayer.m */; };
+		3B395D501BECC71300B801CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D351BECC71300B801CF /* AppDelegate.m */; };
+		3B395D5E1BECC74D00B801CF /* MUClassGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D531BECC74D00B801CF /* MUClassGuide.m */; };
+		3B395D5F1BECC74D00B801CF /* MUClassSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D551BECC74D00B801CF /* MUClassSet.m */; };
+		3B395D601BECC74D00B801CF /* MUPropertySet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D581BECC74D00B801CF /* MUPropertySet.m */; };
+		3B395D611BECC74D00B801CF /* MUVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D5A1BECC74D00B801CF /* MUVar.m */; };
+		3B395D621BECC74D00B801CF /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D5C1BECC74D00B801CF /* NSObject+Model.m */; };
+		3B395D631BECC74D00B801CF /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3B395D5D1BECC74D00B801CF /* README */; };
+		3B4DD6D81BECCA6B0036C0C9 /* ArtistType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B4DD6D61BECCA6B0036C0C9 /* ArtistType.plist */; };
+		3B4DD6D91BECCA6B0036C0C9 /* TabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B4DD6D71BECCA6B0036C0C9 /* TabBar.plist */; };
+		3B4DD6FB1BECCA9D0036C0C9 /* SPAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6DD1BECCA9D0036C0C9 /* SPAlbumController.m */; };
+		3B4DD6FC1BECCA9D0036C0C9 /* SPArtistsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6E11BECCA9D0036C0C9 /* SPArtistsController.m */; };
+		3B4DD6FD1BECCA9D0036C0C9 /* SPCloudController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6E51BECCA9D0036C0C9 /* SPCloudController.m */; };
+		3B4DD6FE1BECCA9D0036C0C9 /* SPHotPlayerListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6E71BECCA9D0036C0C9 /* SPHotPlayerListController.m */; };
+		3B4DD6FF1BECCA9D0036C0C9 /* SPCloudArtistType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6EA1BECCA9D0036C0C9 /* SPCloudArtistType.m */; };
+		3B4DD7001BECCA9D0036C0C9 /* SPCloudCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6ED1BECCA9D0036C0C9 /* SPCloudCell.m */; };
+		3B4DD7011BECCA9D0036C0C9 /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6EF1BECCA9D0036C0C9 /* SPSearchBar.m */; };
+		3B4DD7021BECCA9D0036C0C9 /* SPPlayListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6F31BECCA9D0036C0C9 /* SPPlayListController.m */; };
+		3B4DD7031BECCA9D0036C0C9 /* SPAddItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6F61BECCA9D0036C0C9 /* SPAddItemView.m */; };
+		3B4DD7041BECCA9D0036C0C9 /* SPSongController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6FA1BECCA9D0036C0C9 /* SPSongController.m */; };
+		3B4DD7181BECCAC80036C0C9 /* SPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7071BECCAC80036C0C9 /* SPNavigationController.m */; };
+		3B4DD7191BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7091BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.m */; };
+		3B4DD71A1BECCAC80036C0C9 /* SPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD70C1BECCAC80036C0C9 /* SPTabBar.m */; };
+		3B4DD71B1BECCAC80036C0C9 /* SPTabBarSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD70E1BECCAC80036C0C9 /* SPTabBarSelectorView.m */; };
+		3B4DD71C1BECCAC80036C0C9 /* SPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7101BECCAC80036C0C9 /* SPTabBarViewController.m */; };
+		3B4DD71D1BECCAC80036C0C9 /* SPTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7131BECCAC80036C0C9 /* SPTableView.m */; };
+		3B4DD71E1BECCAC80036C0C9 /* SPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7151BECCAC80036C0C9 /* SPTableViewCell.m */; };
+		3B4DD71F1BECCAC80036C0C9 /* SPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7171BECCAC80036C0C9 /* SPTableViewController.m */; };
+		3B4DD7261BECCAF90036C0C9 /* SPBlankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7211BECCAF90036C0C9 /* SPBlankView.m */; };
+		3B4DD7271BECCAF90036C0C9 /* SPSourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7231BECCAF90036C0C9 /* SPSourceView.m */; };
+		3B4DD7281BECCAF90036C0C9 /* SPTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7251BECCAF90036C0C9 /* SPTopView.m */; };
+		3B4DD73D1BECCB2D0036C0C9 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD72C1BECCB2D0036C0C9 /* UIBarButtonItem+Extension.m */; };
+		3B4DD73E1BECCB2D0036C0C9 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD72F1BECCB2D0036C0C9 /* UIButton+Extension.m */; };
+		3B4DD73F1BECCB2D0036C0C9 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7321BECCB2D0036C0C9 /* UIColor+Extension.m */; };
+		3B4DD7401BECCB2D0036C0C9 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7351BECCB2D0036C0C9 /* UIImage+Extension.m */; };
+		3B4DD7411BECCB2D0036C0C9 /* UINavigationBar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7391BECCB2D0036C0C9 /* UINavigationBar+Extension.m */; };
+		3B4DD7421BECCB2D0036C0C9 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD73C1BECCB2D0036C0C9 /* UIView+Extension.m */; };
 		D4D678E41BECBABE00B688E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D678E31BECBABE00B688E6 /* main.m */; };
 		D4D678EF1BECBABE00B688E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D678EE1BECBABE00B688E6 /* Assets.xcassets */; };
-		D4D679051BECC14C00B688E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D679001BECC14C00B688E6 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B395CF91BECC71300B801CF /* BaiduTingAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduTingAPI.h; sourceTree = "<group>"; };
+		3B395CFA1BECC71300B801CF /* BaiduTingAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduTingAPI.m; sourceTree = "<group>"; };
+		3B395CFB1BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SPBaiduParame.h"; sourceTree = "<group>"; };
+		3B395CFC1BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SPBaiduParame.m"; sourceTree = "<group>"; };
+		3B395CFF1BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduAlbumGetAlbumInfoRequest.h; sourceTree = "<group>"; };
+		3B395D001BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduAlbumGetAlbumInfoRequest.m; sourceTree = "<group>"; };
+		3B395D021BECC71300B801CF /* SPBaiduArtistGetAlbumListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduArtistGetAlbumListRequest.h; sourceTree = "<group>"; };
+		3B395D031BECC71300B801CF /* SPBaiduArtistGetAlbumListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduArtistGetAlbumListRequest.m; sourceTree = "<group>"; };
+		3B395D041BECC71300B801CF /* SPBaiduArtistGetInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduArtistGetInfoRequest.h; sourceTree = "<group>"; };
+		3B395D051BECC71300B801CF /* SPBaiduArtistGetInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduArtistGetInfoRequest.m; sourceTree = "<group>"; };
+		3B395D061BECC71300B801CF /* SPBaiduArtistGetListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduArtistGetListRequest.h; sourceTree = "<group>"; };
+		3B395D071BECC71300B801CF /* SPBaiduArtistGetListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduArtistGetListRequest.m; sourceTree = "<group>"; };
+		3B395D081BECC71300B801CF /* SPBaiduArtistGetSongListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduArtistGetSongListRequest.h; sourceTree = "<group>"; };
+		3B395D091BECC71300B801CF /* SPBaiduArtistGetSongListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduArtistGetSongListRequest.m; sourceTree = "<group>"; };
+		3B395D0B1BECC71300B801CF /* SPBaiduDownloadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduDownloadRequest.h; sourceTree = "<group>"; };
+		3B395D0C1BECC71300B801CF /* SPBaiduDownloadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduDownloadRequest.m; sourceTree = "<group>"; };
+		3B395D0E1BECC71300B801CF /* SPBaiduSearchCatalogSugRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduSearchCatalogSugRequest.h; sourceTree = "<group>"; };
+		3B395D0F1BECC71300B801CF /* SPBaiduSearchCatalogSugRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduSearchCatalogSugRequest.m; sourceTree = "<group>"; };
+		3B395D101BECC71300B801CF /* SPBaiduSearchHotRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduSearchHotRequest.h; sourceTree = "<group>"; };
+		3B395D111BECC71300B801CF /* SPBaiduSearchHotRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduSearchHotRequest.m; sourceTree = "<group>"; };
+		3B395D121BECC71300B801CF /* SPBaiduSearchMergeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduSearchMergeRequest.h; sourceTree = "<group>"; };
+		3B395D131BECC71300B801CF /* SPBaiduSearchMergeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduSearchMergeRequest.m; sourceTree = "<group>"; };
+		3B395D141BECC71300B801CF /* SPBaiduRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduRequest.h; sourceTree = "<group>"; };
+		3B395D151BECC71300B801CF /* SPBaiduRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduRequest.m; sourceTree = "<group>"; };
+		3B395D181BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduAlbumGetAlbumInfoRespond.h; sourceTree = "<group>"; };
+		3B395D191BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduAlbumGetAlbumInfoRespond.m; sourceTree = "<group>"; };
+		3B395D1B1BECC71300B801CF /* SPBaiduArtistGetAlbumListRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduArtistGetAlbumListRespond.h; sourceTree = "<group>"; };
+		3B395D1C1BECC71300B801CF /* SPBaiduArtistGetAlbumListRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduArtistGetAlbumListRespond.m; sourceTree = "<group>"; };
+		3B395D1D1BECC71300B801CF /* SPBaiduArtistGetInfoRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduArtistGetInfoRespond.h; sourceTree = "<group>"; };
+		3B395D1E1BECC71300B801CF /* SPBaiduArtistGetInfoRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduArtistGetInfoRespond.m; sourceTree = "<group>"; };
+		3B395D1F1BECC71300B801CF /* SPBaiduArtistGetListRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduArtistGetListRespond.h; sourceTree = "<group>"; };
+		3B395D201BECC71300B801CF /* SPBaiduArtistGetListRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduArtistGetListRespond.m; sourceTree = "<group>"; };
+		3B395D211BECC71300B801CF /* SPBaiduArtistGetSongListRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduArtistGetSongListRespond.h; sourceTree = "<group>"; };
+		3B395D221BECC71300B801CF /* SPBaiduArtistGetSongListRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduArtistGetSongListRespond.m; sourceTree = "<group>"; };
+		3B395D241BECC71300B801CF /* SPBaiduDownloadRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduDownloadRespond.h; sourceTree = "<group>"; };
+		3B395D251BECC71300B801CF /* SPBaiduDownloadRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduDownloadRespond.m; sourceTree = "<group>"; };
+		3B395D261BECC71300B801CF /* SPBaiduSearchCatalogSugRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduSearchCatalogSugRespond.h; sourceTree = "<group>"; };
+		3B395D271BECC71300B801CF /* SPBaiduSearchCatalogSugRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduSearchCatalogSugRespond.m; sourceTree = "<group>"; };
+		3B395D281BECC71300B801CF /* SPBaiduSearchHotRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduSearchHotRespond.h; sourceTree = "<group>"; };
+		3B395D291BECC71300B801CF /* SPBaiduSearchHotRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduSearchHotRespond.m; sourceTree = "<group>"; };
+		3B395D2A1BECC71300B801CF /* SPBaiduSearchMergeRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduSearchMergeRespond.h; sourceTree = "<group>"; };
+		3B395D2B1BECC71300B801CF /* SPBaiduSearchMergeRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduSearchMergeRespond.m; sourceTree = "<group>"; };
+		3B395D2C1BECC71300B801CF /* SPBaiduRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaiduRespond.h; sourceTree = "<group>"; };
+		3B395D2D1BECC71300B801CF /* SPBaiduRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaiduRespond.m; sourceTree = "<group>"; };
+		3B395D2F1BECC71300B801CF /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		3B395D311BECC71300B801CF /* MUAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUAudioPlayer.h; sourceTree = "<group>"; };
+		3B395D321BECC71300B801CF /* MUAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUAudioPlayer.m; sourceTree = "<group>"; };
+		3B395D341BECC71300B801CF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B395D351BECC71300B801CF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B395D521BECC74D00B801CF /* MUClassGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUClassGuide.h; sourceTree = "<group>"; };
+		3B395D531BECC74D00B801CF /* MUClassGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUClassGuide.m; sourceTree = "<group>"; };
+		3B395D541BECC74D00B801CF /* MUClassSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUClassSet.h; sourceTree = "<group>"; };
+		3B395D551BECC74D00B801CF /* MUClassSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUClassSet.m; sourceTree = "<group>"; };
+		3B395D561BECC74D00B801CF /* MUModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUModel.h; sourceTree = "<group>"; };
+		3B395D571BECC74D00B801CF /* MUPropertySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPropertySet.h; sourceTree = "<group>"; };
+		3B395D581BECC74D00B801CF /* MUPropertySet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPropertySet.m; sourceTree = "<group>"; };
+		3B395D591BECC74D00B801CF /* MUVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUVar.h; sourceTree = "<group>"; };
+		3B395D5A1BECC74D00B801CF /* MUVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUVar.m; sourceTree = "<group>"; };
+		3B395D5B1BECC74D00B801CF /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		3B395D5C1BECC74D00B801CF /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		3B395D5D1BECC74D00B801CF /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		3B395D641BECC77500B801CF /* SmartisanPlayer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartisanPlayer.pch; sourceTree = "<group>"; };
+		3B4DD6D61BECCA6B0036C0C9 /* ArtistType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArtistType.plist; sourceTree = "<group>"; };
+		3B4DD6D71BECCA6B0036C0C9 /* TabBar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabBar.plist; sourceTree = "<group>"; };
+		3B4DD6DC1BECCA9D0036C0C9 /* SPAlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlbumController.h; sourceTree = "<group>"; };
+		3B4DD6DD1BECCA9D0036C0C9 /* SPAlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlbumController.m; sourceTree = "<group>"; };
+		3B4DD6E01BECCA9D0036C0C9 /* SPArtistsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArtistsController.h; sourceTree = "<group>"; };
+		3B4DD6E11BECCA9D0036C0C9 /* SPArtistsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPArtistsController.m; sourceTree = "<group>"; };
+		3B4DD6E41BECCA9D0036C0C9 /* SPCloudController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCloudController.h; sourceTree = "<group>"; };
+		3B4DD6E51BECCA9D0036C0C9 /* SPCloudController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCloudController.m; sourceTree = "<group>"; };
+		3B4DD6E61BECCA9D0036C0C9 /* SPHotPlayerListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHotPlayerListController.h; sourceTree = "<group>"; };
+		3B4DD6E71BECCA9D0036C0C9 /* SPHotPlayerListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHotPlayerListController.m; sourceTree = "<group>"; };
+		3B4DD6E91BECCA9D0036C0C9 /* SPCloudArtistType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCloudArtistType.h; sourceTree = "<group>"; };
+		3B4DD6EA1BECCA9D0036C0C9 /* SPCloudArtistType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCloudArtistType.m; sourceTree = "<group>"; };
+		3B4DD6EC1BECCA9D0036C0C9 /* SPCloudCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCloudCell.h; sourceTree = "<group>"; };
+		3B4DD6ED1BECCA9D0036C0C9 /* SPCloudCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCloudCell.m; sourceTree = "<group>"; };
+		3B4DD6EE1BECCA9D0036C0C9 /* SPSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearchBar.h; sourceTree = "<group>"; };
+		3B4DD6EF1BECCA9D0036C0C9 /* SPSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSearchBar.m; sourceTree = "<group>"; };
+		3B4DD6F21BECCA9D0036C0C9 /* SPPlayListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlayListController.h; sourceTree = "<group>"; };
+		3B4DD6F31BECCA9D0036C0C9 /* SPPlayListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPlayListController.m; sourceTree = "<group>"; };
+		3B4DD6F51BECCA9D0036C0C9 /* SPAddItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAddItemView.h; sourceTree = "<group>"; };
+		3B4DD6F61BECCA9D0036C0C9 /* SPAddItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAddItemView.m; sourceTree = "<group>"; };
+		3B4DD6F91BECCA9D0036C0C9 /* SPSongController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSongController.h; sourceTree = "<group>"; };
+		3B4DD6FA1BECCA9D0036C0C9 /* SPSongController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSongController.m; sourceTree = "<group>"; };
+		3B4DD7061BECCAC80036C0C9 /* SPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNavigationController.h; sourceTree = "<group>"; };
+		3B4DD7071BECCAC80036C0C9 /* SPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNavigationController.m; sourceTree = "<group>"; };
+		3B4DD7081BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SPNavigationBar.h"; sourceTree = "<group>"; };
+		3B4DD7091BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SPNavigationBar.m"; sourceTree = "<group>"; };
+		3B4DD70B1BECCAC80036C0C9 /* SPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTabBar.h; sourceTree = "<group>"; };
+		3B4DD70C1BECCAC80036C0C9 /* SPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTabBar.m; sourceTree = "<group>"; };
+		3B4DD70D1BECCAC80036C0C9 /* SPTabBarSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTabBarSelectorView.h; sourceTree = "<group>"; };
+		3B4DD70E1BECCAC80036C0C9 /* SPTabBarSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTabBarSelectorView.m; sourceTree = "<group>"; };
+		3B4DD70F1BECCAC80036C0C9 /* SPTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTabBarViewController.h; sourceTree = "<group>"; };
+		3B4DD7101BECCAC80036C0C9 /* SPTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTabBarViewController.m; sourceTree = "<group>"; };
+		3B4DD7121BECCAC80036C0C9 /* SPTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTableView.h; sourceTree = "<group>"; };
+		3B4DD7131BECCAC80036C0C9 /* SPTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTableView.m; sourceTree = "<group>"; };
+		3B4DD7141BECCAC80036C0C9 /* SPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTableViewCell.h; sourceTree = "<group>"; };
+		3B4DD7151BECCAC80036C0C9 /* SPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTableViewCell.m; sourceTree = "<group>"; };
+		3B4DD7161BECCAC80036C0C9 /* SPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTableViewController.h; sourceTree = "<group>"; };
+		3B4DD7171BECCAC80036C0C9 /* SPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTableViewController.m; sourceTree = "<group>"; };
+		3B4DD7201BECCAF90036C0C9 /* SPBlankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBlankView.h; sourceTree = "<group>"; };
+		3B4DD7211BECCAF90036C0C9 /* SPBlankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBlankView.m; sourceTree = "<group>"; };
+		3B4DD7221BECCAF90036C0C9 /* SPSourceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSourceView.h; sourceTree = "<group>"; };
+		3B4DD7231BECCAF90036C0C9 /* SPSourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSourceView.m; sourceTree = "<group>"; };
+		3B4DD7241BECCAF90036C0C9 /* SPTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTopView.h; sourceTree = "<group>"; };
+		3B4DD7251BECCAF90036C0C9 /* SPTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTopView.m; sourceTree = "<group>"; };
+		3B4DD72B1BECCB2D0036C0C9 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		3B4DD72C1BECCB2D0036C0C9 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		3B4DD72E1BECCB2D0036C0C9 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		3B4DD72F1BECCB2D0036C0C9 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		3B4DD7311BECCB2D0036C0C9 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		3B4DD7321BECCB2D0036C0C9 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		3B4DD7341BECCB2D0036C0C9 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		3B4DD7351BECCB2D0036C0C9 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		3B4DD7361BECCB2D0036C0C9 /* UIKit+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+Extension.h"; sourceTree = "<group>"; };
+		3B4DD7381BECCB2D0036C0C9 /* UINavigationBar+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Extension.h"; sourceTree = "<group>"; };
+		3B4DD7391BECCB2D0036C0C9 /* UINavigationBar+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Extension.m"; sourceTree = "<group>"; };
+		3B4DD73B1BECCB2D0036C0C9 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3B4DD73C1BECCB2D0036C0C9 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		5C70227CD718F1202B38BF62 /* Pods-SmartisanPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartisanPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartisanPlayer/Pods-SmartisanPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		C40390238829C51492A6A6B2 /* libPods-SmartisanPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartisanPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4414956C47CBEA785C53D19 /* Pods-SmartisanPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartisanPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartisanPlayer/Pods-SmartisanPlayer.release.xcconfig"; sourceTree = "<group>"; };
@@ -21,8 +199,6 @@
 		D4D678E31BECBABE00B688E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4D678EE1BECBABE00B688E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4D678F31BECBABE00B688E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4D678FF1BECC14C00B688E6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D4D679001BECC14C00B688E6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +219,461 @@
 				C40390238829C51492A6A6B2 /* libPods-SmartisanPlayer.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B395CF51BECC71300B801CF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3B395CF61BECC71300B801CF /* Controllers */,
+				3B395CF71BECC71300B801CF /* HTTP */,
+				3B395D2E1BECC71300B801CF /* Library */,
+				3B395D331BECC71300B801CF /* Main */,
+				3B395D361BECC71300B801CF /* Models */,
+				3B395D371BECC71300B801CF /* Views */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3B395CF61BECC71300B801CF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7051BECCAC80036C0C9 /* Navigation */,
+				3B4DD70A1BECCAC80036C0C9 /* TabBar */,
+				3B4DD7111BECCAC80036C0C9 /* TableView */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3B395CF71BECC71300B801CF /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				3B395CF81BECC71300B801CF /* BaiduAPI */,
+				3B395CFD1BECC71300B801CF /* Request */,
+				3B395D161BECC71300B801CF /* Respond */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		3B395CF81BECC71300B801CF /* BaiduAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3B395CF91BECC71300B801CF /* BaiduTingAPI.h */,
+				3B395CFA1BECC71300B801CF /* BaiduTingAPI.m */,
+				3B395CFB1BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.h */,
+				3B395CFC1BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.m */,
+			);
+			path = BaiduAPI;
+			sourceTree = "<group>";
+		};
+		3B395CFD1BECC71300B801CF /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3B395CFE1BECC71300B801CF /* RequestAlbum */,
+				3B395D011BECC71300B801CF /* RequestArtist */,
+				3B395D0A1BECC71300B801CF /* RequestDownload */,
+				3B395D0D1BECC71300B801CF /* RequestSearch */,
+				3B395D141BECC71300B801CF /* SPBaiduRequest.h */,
+				3B395D151BECC71300B801CF /* SPBaiduRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3B395CFE1BECC71300B801CF /* RequestAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				3B395CFF1BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.h */,
+				3B395D001BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.m */,
+			);
+			path = RequestAlbum;
+			sourceTree = "<group>";
+		};
+		3B395D011BECC71300B801CF /* RequestArtist */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D021BECC71300B801CF /* SPBaiduArtistGetAlbumListRequest.h */,
+				3B395D031BECC71300B801CF /* SPBaiduArtistGetAlbumListRequest.m */,
+				3B395D041BECC71300B801CF /* SPBaiduArtistGetInfoRequest.h */,
+				3B395D051BECC71300B801CF /* SPBaiduArtistGetInfoRequest.m */,
+				3B395D061BECC71300B801CF /* SPBaiduArtistGetListRequest.h */,
+				3B395D071BECC71300B801CF /* SPBaiduArtistGetListRequest.m */,
+				3B395D081BECC71300B801CF /* SPBaiduArtistGetSongListRequest.h */,
+				3B395D091BECC71300B801CF /* SPBaiduArtistGetSongListRequest.m */,
+			);
+			path = RequestArtist;
+			sourceTree = "<group>";
+		};
+		3B395D0A1BECC71300B801CF /* RequestDownload */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D0B1BECC71300B801CF /* SPBaiduDownloadRequest.h */,
+				3B395D0C1BECC71300B801CF /* SPBaiduDownloadRequest.m */,
+			);
+			path = RequestDownload;
+			sourceTree = "<group>";
+		};
+		3B395D0D1BECC71300B801CF /* RequestSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D0E1BECC71300B801CF /* SPBaiduSearchCatalogSugRequest.h */,
+				3B395D0F1BECC71300B801CF /* SPBaiduSearchCatalogSugRequest.m */,
+				3B395D101BECC71300B801CF /* SPBaiduSearchHotRequest.h */,
+				3B395D111BECC71300B801CF /* SPBaiduSearchHotRequest.m */,
+				3B395D121BECC71300B801CF /* SPBaiduSearchMergeRequest.h */,
+				3B395D131BECC71300B801CF /* SPBaiduSearchMergeRequest.m */,
+			);
+			path = RequestSearch;
+			sourceTree = "<group>";
+		};
+		3B395D161BECC71300B801CF /* Respond */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D171BECC71300B801CF /* RespondAlbum */,
+				3B395D1A1BECC71300B801CF /* RespondArtist */,
+				3B395D231BECC71300B801CF /* RespondSearch */,
+				3B395D2C1BECC71300B801CF /* SPBaiduRespond.h */,
+				3B395D2D1BECC71300B801CF /* SPBaiduRespond.m */,
+			);
+			path = Respond;
+			sourceTree = "<group>";
+		};
+		3B395D171BECC71300B801CF /* RespondAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D181BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRespond.h */,
+				3B395D191BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRespond.m */,
+			);
+			path = RespondAlbum;
+			sourceTree = "<group>";
+		};
+		3B395D1A1BECC71300B801CF /* RespondArtist */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D1B1BECC71300B801CF /* SPBaiduArtistGetAlbumListRespond.h */,
+				3B395D1C1BECC71300B801CF /* SPBaiduArtistGetAlbumListRespond.m */,
+				3B395D1D1BECC71300B801CF /* SPBaiduArtistGetInfoRespond.h */,
+				3B395D1E1BECC71300B801CF /* SPBaiduArtistGetInfoRespond.m */,
+				3B395D1F1BECC71300B801CF /* SPBaiduArtistGetListRespond.h */,
+				3B395D201BECC71300B801CF /* SPBaiduArtistGetListRespond.m */,
+				3B395D211BECC71300B801CF /* SPBaiduArtistGetSongListRespond.h */,
+				3B395D221BECC71300B801CF /* SPBaiduArtistGetSongListRespond.m */,
+			);
+			path = RespondArtist;
+			sourceTree = "<group>";
+		};
+		3B395D231BECC71300B801CF /* RespondSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D241BECC71300B801CF /* SPBaiduDownloadRespond.h */,
+				3B395D251BECC71300B801CF /* SPBaiduDownloadRespond.m */,
+				3B395D261BECC71300B801CF /* SPBaiduSearchCatalogSugRespond.h */,
+				3B395D271BECC71300B801CF /* SPBaiduSearchCatalogSugRespond.m */,
+				3B395D281BECC71300B801CF /* SPBaiduSearchHotRespond.h */,
+				3B395D291BECC71300B801CF /* SPBaiduSearchHotRespond.m */,
+				3B395D2A1BECC71300B801CF /* SPBaiduSearchMergeRespond.h */,
+				3B395D2B1BECC71300B801CF /* SPBaiduSearchMergeRespond.m */,
+			);
+			path = RespondSearch;
+			sourceTree = "<group>";
+		};
+		3B395D2E1BECC71300B801CF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D2F1BECC71300B801CF /* Foundation+Log.m */,
+				3B395D511BECC74D00B801CF /* Model */,
+				3B395D301BECC71300B801CF /* MUAudioPlayer */,
+				3B4DD7291BECCB2D0036C0C9 /* UIKit */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		3B395D301BECC71300B801CF /* MUAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D311BECC71300B801CF /* MUAudioPlayer.h */,
+				3B395D321BECC71300B801CF /* MUAudioPlayer.m */,
+			);
+			path = MUAudioPlayer;
+			sourceTree = "<group>";
+		};
+		3B395D331BECC71300B801CF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D341BECC71300B801CF /* AppDelegate.h */,
+				3B395D351BECC71300B801CF /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3B395D361BECC71300B801CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B395D371BECC71300B801CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7201BECCAF90036C0C9 /* SPBlankView.h */,
+				3B4DD7211BECCAF90036C0C9 /* SPBlankView.m */,
+				3B4DD7221BECCAF90036C0C9 /* SPSourceView.h */,
+				3B4DD7231BECCAF90036C0C9 /* SPSourceView.m */,
+				3B4DD7241BECCAF90036C0C9 /* SPTopView.h */,
+				3B4DD7251BECCAF90036C0C9 /* SPTopView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B395D511BECC74D00B801CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B395D521BECC74D00B801CF /* MUClassGuide.h */,
+				3B395D531BECC74D00B801CF /* MUClassGuide.m */,
+				3B395D541BECC74D00B801CF /* MUClassSet.h */,
+				3B395D551BECC74D00B801CF /* MUClassSet.m */,
+				3B395D561BECC74D00B801CF /* MUModel.h */,
+				3B395D571BECC74D00B801CF /* MUPropertySet.h */,
+				3B395D581BECC74D00B801CF /* MUPropertySet.m */,
+				3B395D591BECC74D00B801CF /* MUVar.h */,
+				3B395D5A1BECC74D00B801CF /* MUVar.m */,
+				3B395D5B1BECC74D00B801CF /* NSObject+Model.h */,
+				3B395D5C1BECC74D00B801CF /* NSObject+Model.m */,
+				3B395D5D1BECC74D00B801CF /* README */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B4DD6D51BECCA6B0036C0C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6D61BECCA6B0036C0C9 /* ArtistType.plist */,
+				3B4DD6D71BECCA6B0036C0C9 /* TabBar.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B4DD6DA1BECCA9D0036C0C9 /* ScreenAlbums(专辑) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6DB1BECCA9D0036C0C9 /* Controller */,
+			);
+			path = "ScreenAlbums(专辑)";
+			sourceTree = "<group>";
+		};
+		3B4DD6DB1BECCA9D0036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6DC1BECCA9D0036C0C9 /* SPAlbumController.h */,
+				3B4DD6DD1BECCA9D0036C0C9 /* SPAlbumController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4DD6DE1BECCA9D0036C0C9 /* ScreenArtists(艺术家) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6DF1BECCA9D0036C0C9 /* Controller */,
+			);
+			path = "ScreenArtists(艺术家)";
+			sourceTree = "<group>";
+		};
+		3B4DD6DF1BECCA9D0036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6E01BECCA9D0036C0C9 /* SPArtistsController.h */,
+				3B4DD6E11BECCA9D0036C0C9 /* SPArtistsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4DD6E21BECCA9D0036C0C9 /* ScreenCloud(云音乐) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6E31BECCA9D0036C0C9 /* Controller */,
+				3B4DD6E81BECCA9D0036C0C9 /* Models */,
+				3B4DD6EB1BECCA9D0036C0C9 /* Views */,
+			);
+			path = "ScreenCloud(云音乐)";
+			sourceTree = "<group>";
+		};
+		3B4DD6E31BECCA9D0036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6E41BECCA9D0036C0C9 /* SPCloudController.h */,
+				3B4DD6E51BECCA9D0036C0C9 /* SPCloudController.m */,
+				3B4DD6E61BECCA9D0036C0C9 /* SPHotPlayerListController.h */,
+				3B4DD6E71BECCA9D0036C0C9 /* SPHotPlayerListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4DD6E81BECCA9D0036C0C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6E91BECCA9D0036C0C9 /* SPCloudArtistType.h */,
+				3B4DD6EA1BECCA9D0036C0C9 /* SPCloudArtistType.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B4DD6EB1BECCA9D0036C0C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6EC1BECCA9D0036C0C9 /* SPCloudCell.h */,
+				3B4DD6ED1BECCA9D0036C0C9 /* SPCloudCell.m */,
+				3B4DD6EE1BECCA9D0036C0C9 /* SPSearchBar.h */,
+				3B4DD6EF1BECCA9D0036C0C9 /* SPSearchBar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B4DD6F01BECCA9D0036C0C9 /* ScreenList(播放列表) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6F11BECCA9D0036C0C9 /* Controller */,
+				3B4DD6F41BECCA9D0036C0C9 /* Views */,
+			);
+			path = "ScreenList(播放列表)";
+			sourceTree = "<group>";
+		};
+		3B4DD6F11BECCA9D0036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6F21BECCA9D0036C0C9 /* SPPlayListController.h */,
+				3B4DD6F31BECCA9D0036C0C9 /* SPPlayListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4DD6F41BECCA9D0036C0C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6F51BECCA9D0036C0C9 /* SPAddItemView.h */,
+				3B4DD6F61BECCA9D0036C0C9 /* SPAddItemView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B4DD6F71BECCA9D0036C0C9 /* ScreenSongs(歌曲) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6F81BECCA9D0036C0C9 /* Controller */,
+			);
+			path = "ScreenSongs(歌曲)";
+			sourceTree = "<group>";
+		};
+		3B4DD6F81BECCA9D0036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD6F91BECCA9D0036C0C9 /* SPSongController.h */,
+				3B4DD6FA1BECCA9D0036C0C9 /* SPSongController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4DD7051BECCAC80036C0C9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7061BECCAC80036C0C9 /* SPNavigationController.h */,
+				3B4DD7071BECCAC80036C0C9 /* SPNavigationController.m */,
+				3B4DD7081BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.h */,
+				3B4DD7091BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		3B4DD70A1BECCAC80036C0C9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD70B1BECCAC80036C0C9 /* SPTabBar.h */,
+				3B4DD70C1BECCAC80036C0C9 /* SPTabBar.m */,
+				3B4DD70D1BECCAC80036C0C9 /* SPTabBarSelectorView.h */,
+				3B4DD70E1BECCAC80036C0C9 /* SPTabBarSelectorView.m */,
+				3B4DD70F1BECCAC80036C0C9 /* SPTabBarViewController.h */,
+				3B4DD7101BECCAC80036C0C9 /* SPTabBarViewController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		3B4DD7111BECCAC80036C0C9 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7121BECCAC80036C0C9 /* SPTableView.h */,
+				3B4DD7131BECCAC80036C0C9 /* SPTableView.m */,
+				3B4DD7141BECCAC80036C0C9 /* SPTableViewCell.h */,
+				3B4DD7151BECCAC80036C0C9 /* SPTableViewCell.m */,
+				3B4DD7161BECCAC80036C0C9 /* SPTableViewController.h */,
+				3B4DD7171BECCAC80036C0C9 /* SPTableViewController.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3B4DD7291BECCB2D0036C0C9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD72A1BECCB2D0036C0C9 /* UIBarButtonItem */,
+				3B4DD72D1BECCB2D0036C0C9 /* UIButton */,
+				3B4DD7301BECCB2D0036C0C9 /* UIColor */,
+				3B4DD7331BECCB2D0036C0C9 /* UIImage */,
+				3B4DD7361BECCB2D0036C0C9 /* UIKit+Extension.h */,
+				3B4DD7371BECCB2D0036C0C9 /* UINavigationBar */,
+				3B4DD73A1BECCB2D0036C0C9 /* UIView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		3B4DD72A1BECCB2D0036C0C9 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD72B1BECCB2D0036C0C9 /* UIBarButtonItem+Extension.h */,
+				3B4DD72C1BECCB2D0036C0C9 /* UIBarButtonItem+Extension.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		3B4DD72D1BECCB2D0036C0C9 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD72E1BECCB2D0036C0C9 /* UIButton+Extension.h */,
+				3B4DD72F1BECCB2D0036C0C9 /* UIButton+Extension.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		3B4DD7301BECCB2D0036C0C9 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7311BECCB2D0036C0C9 /* UIColor+Extension.h */,
+				3B4DD7321BECCB2D0036C0C9 /* UIColor+Extension.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		3B4DD7331BECCB2D0036C0C9 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7341BECCB2D0036C0C9 /* UIImage+Extension.h */,
+				3B4DD7351BECCB2D0036C0C9 /* UIImage+Extension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		3B4DD7371BECCB2D0036C0C9 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7381BECCB2D0036C0C9 /* UINavigationBar+Extension.h */,
+				3B4DD7391BECCB2D0036C0C9 /* UINavigationBar+Extension.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		3B4DD73A1BECCB2D0036C0C9 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD73B1BECCB2D0036C0C9 /* UIView+Extension.h */,
+				3B4DD73C1BECCB2D0036C0C9 /* UIView+Extension.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		D4D678D61BECBABE00B688E6 = {
@@ -75,6 +706,8 @@
 		D4D678E21BECBABE00B688E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B4DD6D51BECCA6B0036C0C9 /* Resources */,
+				3B395D641BECC77500B801CF /* SmartisanPlayer.pch */,
 				D4D678EE1BECBABE00B688E6 /* Assets.xcassets */,
 				D4D678F31BECBABE00B688E6 /* Info.plist */,
 				D4D678E31BECBABE00B688E6 /* main.m */,
@@ -85,19 +718,15 @@
 		D4D678F91BECBB0400B688E6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D4D678FE1BECC14C00B688E6 /* Application */,
+				3B395CF51BECC71300B801CF /* Application */,
+				3B4DD6DA1BECCA9D0036C0C9 /* ScreenAlbums(专辑) */,
+				3B4DD6DE1BECCA9D0036C0C9 /* ScreenArtists(艺术家) */,
+				3B4DD6E21BECCA9D0036C0C9 /* ScreenCloud(云音乐) */,
+				3B4DD6F01BECCA9D0036C0C9 /* ScreenList(播放列表) */,
+				3B4DD6F71BECCA9D0036C0C9 /* ScreenSongs(歌曲) */,
 				D4D679011BECC14C00B688E6 /* Screen */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		D4D678FE1BECC14C00B688E6 /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				D4D678FF1BECC14C00B688E6 /* AppDelegate.h */,
-				D4D679001BECC14C00B688E6 /* AppDelegate.m */,
-			);
-			path = Application;
 			sourceTree = "<group>";
 		};
 		D4D679011BECC14C00B688E6 /* Screen */ = {
@@ -169,6 +798,7 @@
 		D4D678D71BECBABE00B688E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SP;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Magic_Unique;
 				TargetAttributes = {
@@ -200,7 +830,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B395D631BECC74D00B801CF /* README in Resources */,
 				D4D678EF1BECBABE00B688E6 /* Assets.xcassets in Resources */,
+				3B4DD6D91BECCA6B0036C0C9 /* TabBar.plist in Resources */,
+				3B4DD6D81BECCA6B0036C0C9 /* ArtistType.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +892,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D679051BECC14C00B688E6 /* AppDelegate.m in Sources */,
+				3B4DD7031BECCA9D0036C0C9 /* SPAddItemView.m in Sources */,
+				3B4DD7021BECCA9D0036C0C9 /* SPPlayListController.m in Sources */,
+				3B4DD7261BECCAF90036C0C9 /* SPBlankView.m in Sources */,
+				3B395D5E1BECC74D00B801CF /* MUClassGuide.m in Sources */,
+				3B395D4A1BECC71300B801CF /* SPBaiduSearchCatalogSugRespond.m in Sources */,
+				3B4DD7191BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.m in Sources */,
+				3B395D391BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.m in Sources */,
+				3B395D611BECC74D00B801CF /* MUVar.m in Sources */,
+				3B4DD7041BECCA9D0036C0C9 /* SPSongController.m in Sources */,
+				3B4DD7271BECCAF90036C0C9 /* SPSourceView.m in Sources */,
+				3B395D3A1BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.m in Sources */,
+				3B395D3C1BECC71300B801CF /* SPBaiduArtistGetInfoRequest.m in Sources */,
+				3B4DD6FB1BECCA9D0036C0C9 /* SPAlbumController.m in Sources */,
+				3B395D471BECC71300B801CF /* SPBaiduArtistGetListRespond.m in Sources */,
+				3B395D4F1BECC71300B801CF /* MUAudioPlayer.m in Sources */,
+				3B4DD7401BECCB2D0036C0C9 /* UIImage+Extension.m in Sources */,
+				3B395D3B1BECC71300B801CF /* SPBaiduArtistGetAlbumListRequest.m in Sources */,
+				3B395D381BECC71300B801CF /* BaiduTingAPI.m in Sources */,
+				3B395D3F1BECC71300B801CF /* SPBaiduDownloadRequest.m in Sources */,
+				3B395D3E1BECC71300B801CF /* SPBaiduArtistGetSongListRequest.m in Sources */,
+				3B395D451BECC71300B801CF /* SPBaiduArtistGetAlbumListRespond.m in Sources */,
+				3B4DD71E1BECCAC80036C0C9 /* SPTableViewCell.m in Sources */,
+				3B4DD6FC1BECCA9D0036C0C9 /* SPArtistsController.m in Sources */,
+				3B4DD7001BECCA9D0036C0C9 /* SPCloudCell.m in Sources */,
+				3B395D411BECC71300B801CF /* SPBaiduSearchHotRequest.m in Sources */,
+				3B4DD6FD1BECCA9D0036C0C9 /* SPCloudController.m in Sources */,
+				3B4DD73E1BECCB2D0036C0C9 /* UIButton+Extension.m in Sources */,
+				3B4DD6FF1BECCA9D0036C0C9 /* SPCloudArtistType.m in Sources */,
+				3B4DD73D1BECCB2D0036C0C9 /* UIBarButtonItem+Extension.m in Sources */,
+				3B395D3D1BECC71300B801CF /* SPBaiduArtistGetListRequest.m in Sources */,
+				3B395D4D1BECC71300B801CF /* SPBaiduRespond.m in Sources */,
+				3B395D441BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRespond.m in Sources */,
+				3B4DD71B1BECCAC80036C0C9 /* SPTabBarSelectorView.m in Sources */,
+				3B395D431BECC71300B801CF /* SPBaiduRequest.m in Sources */,
+				3B395D421BECC71300B801CF /* SPBaiduSearchMergeRequest.m in Sources */,
+				3B4DD7011BECCA9D0036C0C9 /* SPSearchBar.m in Sources */,
+				3B4DD7411BECCB2D0036C0C9 /* UINavigationBar+Extension.m in Sources */,
+				3B395D4B1BECC71300B801CF /* SPBaiduSearchHotRespond.m in Sources */,
+				3B4DD7421BECCB2D0036C0C9 /* UIView+Extension.m in Sources */,
+				3B395D5F1BECC74D00B801CF /* MUClassSet.m in Sources */,
+				3B4DD73F1BECCB2D0036C0C9 /* UIColor+Extension.m in Sources */,
+				3B395D401BECC71300B801CF /* SPBaiduSearchCatalogSugRequest.m in Sources */,
+				3B4DD71F1BECCAC80036C0C9 /* SPTableViewController.m in Sources */,
+				3B395D481BECC71300B801CF /* SPBaiduArtistGetSongListRespond.m in Sources */,
+				3B395D501BECC71300B801CF /* AppDelegate.m in Sources */,
+				3B395D461BECC71300B801CF /* SPBaiduArtistGetInfoRespond.m in Sources */,
+				3B4DD7181BECCAC80036C0C9 /* SPNavigationController.m in Sources */,
+				3B4DD6FE1BECCA9D0036C0C9 /* SPHotPlayerListController.m in Sources */,
+				3B395D601BECC74D00B801CF /* MUPropertySet.m in Sources */,
+				3B395D621BECC74D00B801CF /* NSObject+Model.m in Sources */,
+				3B395D4C1BECC71300B801CF /* SPBaiduSearchMergeRespond.m in Sources */,
+				3B4DD71A1BECCAC80036C0C9 /* SPTabBar.m in Sources */,
 				D4D678E41BECBABE00B688E6 /* main.m in Sources */,
+				3B4DD7281BECCAF90036C0C9 /* SPTopView.m in Sources */,
+				3B4DD71C1BECCAC80036C0C9 /* SPTabBarViewController.m in Sources */,
+				3B395D491BECC71300B801CF /* SPBaiduDownloadRespond.m in Sources */,
+				3B4DD71D1BECCAC80036C0C9 /* SPTableView.m in Sources */,
+				3B395D4E1BECC71300B801CF /* Foundation+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +1042,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/${PRODUCT_NAME}.pch";
 				INFOPLIST_FILE = SmartisanPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unique.SmartisanPlayer;
@@ -366,6 +1056,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/${PRODUCT_NAME}.pch";
 				INFOPLIST_FILE = SmartisanPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unique.SmartisanPlayer;

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>class</key>
+		<string>SPPlayListController</string>
+		<key>image</key>
+		<string>playlist</string>
+		<key>title</key>
+		<string>播放列表</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>SPArtistsController</string>
+		<key>image</key>
+		<string>artist</string>
+		<key>title</key>
+		<string>艺术家</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>SPAlbumController</string>
+		<key>image</key>
+		<string>album</string>
+		<key>title</key>
+		<string>专辑</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>SPSongController</string>
+		<key>image</key>
+		<string>song</string>
+		<key>title</key>
+		<string>歌曲</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>SPCloudController</string>
+		<key>image</key>
+		<string>cloudmusic</string>
+		<key>title</key>
+		<string>云音乐</string>
+	</dict>
+</array>
+</plist>

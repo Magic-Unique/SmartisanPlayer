@@ -1,0 +1,38 @@
+//
+//  SmartisanPlayer.pch
+//  SmartisanPlayer
+//
+//  Created by Magic_Unique on 15/11/6.
+//  Copyright © 2015年 Magic_Unique. All rights reserved.
+//
+
+#ifndef SmartisanPlayer_pch
+#define SmartisanPlayer_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIKit+Extension.h"
+
+#define SPRunBlock(b)                       {if(b){b();}}
+#define SPRunBlockWithPara(b, p)            {if(b){b(p);}}
+
+typedef struct {
+    int64_t total;
+    int64_t completed;
+} SPDownloadProgress;               //下载进度
+
+typedef struct {
+    NSTimeInterval duration;
+    NSTimeInterval current;
+} SPPlayProgress;                   //播放进度
+
+#pragma mark - 全局颜色
+#define APP_COLOR_MAIN_TITLE    [UIColor darkGrayColor]
+#define APP_COLOR_SUB_TITLE     [UIColor grayColor]
+#define APP_COLOR_CONTENT       [UIColor lightGrayColor]
+#define APP_COLOR_HIGHLIGHTED   [UIColor whiteColor]
+
+#define Screen_Width    [UIScreen mainScreen].bounds.size.width
+#define Screen_Bounds   [UIScreen mainScreen].bounds
+
+#endif /* SmartisanPlayer_pch */
