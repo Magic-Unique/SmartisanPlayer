@@ -41,16 +41,6 @@
 		3B395D631BECC74D00B801CF /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3B395D5D1BECC74D00B801CF /* README */; };
 		3B4DD6D81BECCA6B0036C0C9 /* ArtistType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B4DD6D61BECCA6B0036C0C9 /* ArtistType.plist */; };
 		3B4DD6D91BECCA6B0036C0C9 /* TabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B4DD6D71BECCA6B0036C0C9 /* TabBar.plist */; };
-		3B4DD6FB1BECCA9D0036C0C9 /* SPAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6DD1BECCA9D0036C0C9 /* SPAlbumController.m */; };
-		3B4DD6FC1BECCA9D0036C0C9 /* SPArtistsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6E11BECCA9D0036C0C9 /* SPArtistsController.m */; };
-		3B4DD6FD1BECCA9D0036C0C9 /* SPCloudController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6E51BECCA9D0036C0C9 /* SPCloudController.m */; };
-		3B4DD6FE1BECCA9D0036C0C9 /* SPHotPlayerListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6E71BECCA9D0036C0C9 /* SPHotPlayerListController.m */; };
-		3B4DD6FF1BECCA9D0036C0C9 /* SPCloudArtistType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6EA1BECCA9D0036C0C9 /* SPCloudArtistType.m */; };
-		3B4DD7001BECCA9D0036C0C9 /* SPCloudCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6ED1BECCA9D0036C0C9 /* SPCloudCell.m */; };
-		3B4DD7011BECCA9D0036C0C9 /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6EF1BECCA9D0036C0C9 /* SPSearchBar.m */; };
-		3B4DD7021BECCA9D0036C0C9 /* SPPlayListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6F31BECCA9D0036C0C9 /* SPPlayListController.m */; };
-		3B4DD7031BECCA9D0036C0C9 /* SPAddItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6F61BECCA9D0036C0C9 /* SPAddItemView.m */; };
-		3B4DD7041BECCA9D0036C0C9 /* SPSongController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD6FA1BECCA9D0036C0C9 /* SPSongController.m */; };
 		3B4DD7181BECCAC80036C0C9 /* SPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7071BECCAC80036C0C9 /* SPNavigationController.m */; };
 		3B4DD7191BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7091BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.m */; };
 		3B4DD71A1BECCAC80036C0C9 /* SPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD70C1BECCAC80036C0C9 /* SPTabBar.m */; };
@@ -68,6 +58,16 @@
 		3B4DD7401BECCB2D0036C0C9 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7351BECCB2D0036C0C9 /* UIImage+Extension.m */; };
 		3B4DD7411BECCB2D0036C0C9 /* UINavigationBar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7391BECCB2D0036C0C9 /* UINavigationBar+Extension.m */; };
 		3B4DD7421BECCB2D0036C0C9 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD73C1BECCB2D0036C0C9 /* UIView+Extension.m */; };
+		3B4DD7641BECCE930036C0C9 /* SPAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7461BECCE930036C0C9 /* SPAlbumController.m */; };
+		3B4DD7651BECCE930036C0C9 /* SPArtistsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD74A1BECCE930036C0C9 /* SPArtistsController.m */; };
+		3B4DD7661BECCE930036C0C9 /* SPCloudController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD74E1BECCE930036C0C9 /* SPCloudController.m */; };
+		3B4DD7671BECCE930036C0C9 /* SPHotPlayerListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7501BECCE930036C0C9 /* SPHotPlayerListController.m */; };
+		3B4DD7681BECCE930036C0C9 /* SPCloudArtistType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7531BECCE930036C0C9 /* SPCloudArtistType.m */; };
+		3B4DD7691BECCE930036C0C9 /* SPCloudCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7561BECCE930036C0C9 /* SPCloudCell.m */; };
+		3B4DD76A1BECCE930036C0C9 /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7581BECCE930036C0C9 /* SPSearchBar.m */; };
+		3B4DD76B1BECCE930036C0C9 /* SPPlayListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD75C1BECCE930036C0C9 /* SPPlayListController.m */; };
+		3B4DD76C1BECCE930036C0C9 /* SPAddItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD75F1BECCE930036C0C9 /* SPAddItemView.m */; };
+		3B4DD76D1BECCE930036C0C9 /* SPSongController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DD7631BECCE930036C0C9 /* SPSongController.m */; };
 		D4D678E41BECBABE00B688E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D678E31BECBABE00B688E6 /* main.m */; };
 		D4D678EF1BECBABE00B688E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D678EE1BECBABE00B688E6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -137,26 +137,6 @@
 		3B395D641BECC77500B801CF /* SmartisanPlayer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartisanPlayer.pch; sourceTree = "<group>"; };
 		3B4DD6D61BECCA6B0036C0C9 /* ArtistType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArtistType.plist; sourceTree = "<group>"; };
 		3B4DD6D71BECCA6B0036C0C9 /* TabBar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabBar.plist; sourceTree = "<group>"; };
-		3B4DD6DC1BECCA9D0036C0C9 /* SPAlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlbumController.h; sourceTree = "<group>"; };
-		3B4DD6DD1BECCA9D0036C0C9 /* SPAlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlbumController.m; sourceTree = "<group>"; };
-		3B4DD6E01BECCA9D0036C0C9 /* SPArtistsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArtistsController.h; sourceTree = "<group>"; };
-		3B4DD6E11BECCA9D0036C0C9 /* SPArtistsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPArtistsController.m; sourceTree = "<group>"; };
-		3B4DD6E41BECCA9D0036C0C9 /* SPCloudController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCloudController.h; sourceTree = "<group>"; };
-		3B4DD6E51BECCA9D0036C0C9 /* SPCloudController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCloudController.m; sourceTree = "<group>"; };
-		3B4DD6E61BECCA9D0036C0C9 /* SPHotPlayerListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHotPlayerListController.h; sourceTree = "<group>"; };
-		3B4DD6E71BECCA9D0036C0C9 /* SPHotPlayerListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHotPlayerListController.m; sourceTree = "<group>"; };
-		3B4DD6E91BECCA9D0036C0C9 /* SPCloudArtistType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCloudArtistType.h; sourceTree = "<group>"; };
-		3B4DD6EA1BECCA9D0036C0C9 /* SPCloudArtistType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCloudArtistType.m; sourceTree = "<group>"; };
-		3B4DD6EC1BECCA9D0036C0C9 /* SPCloudCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCloudCell.h; sourceTree = "<group>"; };
-		3B4DD6ED1BECCA9D0036C0C9 /* SPCloudCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCloudCell.m; sourceTree = "<group>"; };
-		3B4DD6EE1BECCA9D0036C0C9 /* SPSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearchBar.h; sourceTree = "<group>"; };
-		3B4DD6EF1BECCA9D0036C0C9 /* SPSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSearchBar.m; sourceTree = "<group>"; };
-		3B4DD6F21BECCA9D0036C0C9 /* SPPlayListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlayListController.h; sourceTree = "<group>"; };
-		3B4DD6F31BECCA9D0036C0C9 /* SPPlayListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPlayListController.m; sourceTree = "<group>"; };
-		3B4DD6F51BECCA9D0036C0C9 /* SPAddItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAddItemView.h; sourceTree = "<group>"; };
-		3B4DD6F61BECCA9D0036C0C9 /* SPAddItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAddItemView.m; sourceTree = "<group>"; };
-		3B4DD6F91BECCA9D0036C0C9 /* SPSongController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSongController.h; sourceTree = "<group>"; };
-		3B4DD6FA1BECCA9D0036C0C9 /* SPSongController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSongController.m; sourceTree = "<group>"; };
 		3B4DD7061BECCAC80036C0C9 /* SPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNavigationController.h; sourceTree = "<group>"; };
 		3B4DD7071BECCAC80036C0C9 /* SPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNavigationController.m; sourceTree = "<group>"; };
 		3B4DD7081BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SPNavigationBar.h"; sourceTree = "<group>"; };
@@ -192,6 +172,26 @@
 		3B4DD7391BECCB2D0036C0C9 /* UINavigationBar+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Extension.m"; sourceTree = "<group>"; };
 		3B4DD73B1BECCB2D0036C0C9 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		3B4DD73C1BECCB2D0036C0C9 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3B4DD7451BECCE930036C0C9 /* SPAlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlbumController.h; sourceTree = "<group>"; };
+		3B4DD7461BECCE930036C0C9 /* SPAlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlbumController.m; sourceTree = "<group>"; };
+		3B4DD7491BECCE930036C0C9 /* SPArtistsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArtistsController.h; sourceTree = "<group>"; };
+		3B4DD74A1BECCE930036C0C9 /* SPArtistsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPArtistsController.m; sourceTree = "<group>"; };
+		3B4DD74D1BECCE930036C0C9 /* SPCloudController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCloudController.h; sourceTree = "<group>"; };
+		3B4DD74E1BECCE930036C0C9 /* SPCloudController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCloudController.m; sourceTree = "<group>"; };
+		3B4DD74F1BECCE930036C0C9 /* SPHotPlayerListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHotPlayerListController.h; sourceTree = "<group>"; };
+		3B4DD7501BECCE930036C0C9 /* SPHotPlayerListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHotPlayerListController.m; sourceTree = "<group>"; };
+		3B4DD7521BECCE930036C0C9 /* SPCloudArtistType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCloudArtistType.h; sourceTree = "<group>"; };
+		3B4DD7531BECCE930036C0C9 /* SPCloudArtistType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCloudArtistType.m; sourceTree = "<group>"; };
+		3B4DD7551BECCE930036C0C9 /* SPCloudCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCloudCell.h; sourceTree = "<group>"; };
+		3B4DD7561BECCE930036C0C9 /* SPCloudCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCloudCell.m; sourceTree = "<group>"; };
+		3B4DD7571BECCE930036C0C9 /* SPSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearchBar.h; sourceTree = "<group>"; };
+		3B4DD7581BECCE930036C0C9 /* SPSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSearchBar.m; sourceTree = "<group>"; };
+		3B4DD75B1BECCE930036C0C9 /* SPPlayListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlayListController.h; sourceTree = "<group>"; };
+		3B4DD75C1BECCE930036C0C9 /* SPPlayListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPlayListController.m; sourceTree = "<group>"; };
+		3B4DD75E1BECCE930036C0C9 /* SPAddItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAddItemView.h; sourceTree = "<group>"; };
+		3B4DD75F1BECCE930036C0C9 /* SPAddItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAddItemView.m; sourceTree = "<group>"; };
+		3B4DD7621BECCE930036C0C9 /* SPSongController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSongController.h; sourceTree = "<group>"; };
+		3B4DD7631BECCE930036C0C9 /* SPSongController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSongController.m; sourceTree = "<group>"; };
 		5C70227CD718F1202B38BF62 /* Pods-SmartisanPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartisanPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartisanPlayer/Pods-SmartisanPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		C40390238829C51492A6A6B2 /* libPods-SmartisanPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartisanPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4414956C47CBEA785C53D19 /* Pods-SmartisanPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartisanPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartisanPlayer/Pods-SmartisanPlayer.release.xcconfig"; sourceTree = "<group>"; };
@@ -452,125 +452,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		3B4DD6DA1BECCA9D0036C0C9 /* ScreenAlbums(专辑) */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6DB1BECCA9D0036C0C9 /* Controller */,
-			);
-			path = "ScreenAlbums(专辑)";
-			sourceTree = "<group>";
-		};
-		3B4DD6DB1BECCA9D0036C0C9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6DC1BECCA9D0036C0C9 /* SPAlbumController.h */,
-				3B4DD6DD1BECCA9D0036C0C9 /* SPAlbumController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3B4DD6DE1BECCA9D0036C0C9 /* ScreenArtists(艺术家) */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6DF1BECCA9D0036C0C9 /* Controller */,
-			);
-			path = "ScreenArtists(艺术家)";
-			sourceTree = "<group>";
-		};
-		3B4DD6DF1BECCA9D0036C0C9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6E01BECCA9D0036C0C9 /* SPArtistsController.h */,
-				3B4DD6E11BECCA9D0036C0C9 /* SPArtistsController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3B4DD6E21BECCA9D0036C0C9 /* ScreenCloud(云音乐) */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6E31BECCA9D0036C0C9 /* Controller */,
-				3B4DD6E81BECCA9D0036C0C9 /* Models */,
-				3B4DD6EB1BECCA9D0036C0C9 /* Views */,
-			);
-			path = "ScreenCloud(云音乐)";
-			sourceTree = "<group>";
-		};
-		3B4DD6E31BECCA9D0036C0C9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6E41BECCA9D0036C0C9 /* SPCloudController.h */,
-				3B4DD6E51BECCA9D0036C0C9 /* SPCloudController.m */,
-				3B4DD6E61BECCA9D0036C0C9 /* SPHotPlayerListController.h */,
-				3B4DD6E71BECCA9D0036C0C9 /* SPHotPlayerListController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3B4DD6E81BECCA9D0036C0C9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6E91BECCA9D0036C0C9 /* SPCloudArtistType.h */,
-				3B4DD6EA1BECCA9D0036C0C9 /* SPCloudArtistType.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		3B4DD6EB1BECCA9D0036C0C9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6EC1BECCA9D0036C0C9 /* SPCloudCell.h */,
-				3B4DD6ED1BECCA9D0036C0C9 /* SPCloudCell.m */,
-				3B4DD6EE1BECCA9D0036C0C9 /* SPSearchBar.h */,
-				3B4DD6EF1BECCA9D0036C0C9 /* SPSearchBar.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3B4DD6F01BECCA9D0036C0C9 /* ScreenList(播放列表) */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6F11BECCA9D0036C0C9 /* Controller */,
-				3B4DD6F41BECCA9D0036C0C9 /* Views */,
-			);
-			path = "ScreenList(播放列表)";
-			sourceTree = "<group>";
-		};
-		3B4DD6F11BECCA9D0036C0C9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6F21BECCA9D0036C0C9 /* SPPlayListController.h */,
-				3B4DD6F31BECCA9D0036C0C9 /* SPPlayListController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3B4DD6F41BECCA9D0036C0C9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6F51BECCA9D0036C0C9 /* SPAddItemView.h */,
-				3B4DD6F61BECCA9D0036C0C9 /* SPAddItemView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3B4DD6F71BECCA9D0036C0C9 /* ScreenSongs(歌曲) */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6F81BECCA9D0036C0C9 /* Controller */,
-			);
-			path = "ScreenSongs(歌曲)";
-			sourceTree = "<group>";
-		};
-		3B4DD6F81BECCA9D0036C0C9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3B4DD6F91BECCA9D0036C0C9 /* SPSongController.h */,
-				3B4DD6FA1BECCA9D0036C0C9 /* SPSongController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		3B4DD7051BECCAC80036C0C9 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -676,6 +557,125 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		3B4DD7431BECCE930036C0C9 /* TabBarAlbums(专辑) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7441BECCE930036C0C9 /* Controller */,
+			);
+			path = "TabBarAlbums(专辑)";
+			sourceTree = "<group>";
+		};
+		3B4DD7441BECCE930036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7451BECCE930036C0C9 /* SPAlbumController.h */,
+				3B4DD7461BECCE930036C0C9 /* SPAlbumController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4DD7471BECCE930036C0C9 /* TabBarArtists(艺术家) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7481BECCE930036C0C9 /* Controller */,
+			);
+			path = "TabBarArtists(艺术家)";
+			sourceTree = "<group>";
+		};
+		3B4DD7481BECCE930036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7491BECCE930036C0C9 /* SPArtistsController.h */,
+				3B4DD74A1BECCE930036C0C9 /* SPArtistsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4DD74B1BECCE930036C0C9 /* TabBarCloud(云音乐) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD74C1BECCE930036C0C9 /* Controller */,
+				3B4DD7511BECCE930036C0C9 /* Models */,
+				3B4DD7541BECCE930036C0C9 /* Views */,
+			);
+			path = "TabBarCloud(云音乐)";
+			sourceTree = "<group>";
+		};
+		3B4DD74C1BECCE930036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD74D1BECCE930036C0C9 /* SPCloudController.h */,
+				3B4DD74E1BECCE930036C0C9 /* SPCloudController.m */,
+				3B4DD74F1BECCE930036C0C9 /* SPHotPlayerListController.h */,
+				3B4DD7501BECCE930036C0C9 /* SPHotPlayerListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4DD7511BECCE930036C0C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7521BECCE930036C0C9 /* SPCloudArtistType.h */,
+				3B4DD7531BECCE930036C0C9 /* SPCloudArtistType.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B4DD7541BECCE930036C0C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7551BECCE930036C0C9 /* SPCloudCell.h */,
+				3B4DD7561BECCE930036C0C9 /* SPCloudCell.m */,
+				3B4DD7571BECCE930036C0C9 /* SPSearchBar.h */,
+				3B4DD7581BECCE930036C0C9 /* SPSearchBar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B4DD7591BECCE930036C0C9 /* TabBarList(播放列表) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD75A1BECCE930036C0C9 /* Controller */,
+				3B4DD75D1BECCE930036C0C9 /* Views */,
+			);
+			path = "TabBarList(播放列表)";
+			sourceTree = "<group>";
+		};
+		3B4DD75A1BECCE930036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD75B1BECCE930036C0C9 /* SPPlayListController.h */,
+				3B4DD75C1BECCE930036C0C9 /* SPPlayListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4DD75D1BECCE930036C0C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD75E1BECCE930036C0C9 /* SPAddItemView.h */,
+				3B4DD75F1BECCE930036C0C9 /* SPAddItemView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B4DD7601BECCE930036C0C9 /* TabBarSongs(歌曲) */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7611BECCE930036C0C9 /* Controller */,
+			);
+			path = "TabBarSongs(歌曲)";
+			sourceTree = "<group>";
+		};
+		3B4DD7611BECCE930036C0C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DD7621BECCE930036C0C9 /* SPSongController.h */,
+				3B4DD7631BECCE930036C0C9 /* SPSongController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D4D678D61BECBABE00B688E6 = {
 			isa = PBXGroup;
 			children = (
@@ -719,11 +719,11 @@
 			isa = PBXGroup;
 			children = (
 				3B395CF51BECC71300B801CF /* Application */,
-				3B4DD6DA1BECCA9D0036C0C9 /* ScreenAlbums(专辑) */,
-				3B4DD6DE1BECCA9D0036C0C9 /* ScreenArtists(艺术家) */,
-				3B4DD6E21BECCA9D0036C0C9 /* ScreenCloud(云音乐) */,
-				3B4DD6F01BECCA9D0036C0C9 /* ScreenList(播放列表) */,
-				3B4DD6F71BECCA9D0036C0C9 /* ScreenSongs(歌曲) */,
+				3B4DD7431BECCE930036C0C9 /* TabBarAlbums(专辑) */,
+				3B4DD7471BECCE930036C0C9 /* TabBarArtists(艺术家) */,
+				3B4DD74B1BECCE930036C0C9 /* TabBarCloud(云音乐) */,
+				3B4DD7591BECCE930036C0C9 /* TabBarList(播放列表) */,
+				3B4DD7601BECCE930036C0C9 /* TabBarSongs(歌曲) */,
 				D4D679011BECC14C00B688E6 /* Screen */,
 			);
 			path = Classes;
@@ -892,46 +892,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4DD7031BECCA9D0036C0C9 /* SPAddItemView.m in Sources */,
-				3B4DD7021BECCA9D0036C0C9 /* SPPlayListController.m in Sources */,
 				3B4DD7261BECCAF90036C0C9 /* SPBlankView.m in Sources */,
 				3B395D5E1BECC74D00B801CF /* MUClassGuide.m in Sources */,
 				3B395D4A1BECC71300B801CF /* SPBaiduSearchCatalogSugRespond.m in Sources */,
 				3B4DD7191BECCAC80036C0C9 /* UINavigationBar+SPNavigationBar.m in Sources */,
 				3B395D391BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.m in Sources */,
 				3B395D611BECC74D00B801CF /* MUVar.m in Sources */,
-				3B4DD7041BECCA9D0036C0C9 /* SPSongController.m in Sources */,
 				3B4DD7271BECCAF90036C0C9 /* SPSourceView.m in Sources */,
 				3B395D3A1BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.m in Sources */,
 				3B395D3C1BECC71300B801CF /* SPBaiduArtistGetInfoRequest.m in Sources */,
-				3B4DD6FB1BECCA9D0036C0C9 /* SPAlbumController.m in Sources */,
+				3B4DD76D1BECCE930036C0C9 /* SPSongController.m in Sources */,
 				3B395D471BECC71300B801CF /* SPBaiduArtistGetListRespond.m in Sources */,
 				3B395D4F1BECC71300B801CF /* MUAudioPlayer.m in Sources */,
 				3B4DD7401BECCB2D0036C0C9 /* UIImage+Extension.m in Sources */,
+				3B4DD76C1BECCE930036C0C9 /* SPAddItemView.m in Sources */,
 				3B395D3B1BECC71300B801CF /* SPBaiduArtistGetAlbumListRequest.m in Sources */,
 				3B395D381BECC71300B801CF /* BaiduTingAPI.m in Sources */,
 				3B395D3F1BECC71300B801CF /* SPBaiduDownloadRequest.m in Sources */,
 				3B395D3E1BECC71300B801CF /* SPBaiduArtistGetSongListRequest.m in Sources */,
+				3B4DD7661BECCE930036C0C9 /* SPCloudController.m in Sources */,
 				3B395D451BECC71300B801CF /* SPBaiduArtistGetAlbumListRespond.m in Sources */,
+				3B4DD76B1BECCE930036C0C9 /* SPPlayListController.m in Sources */,
 				3B4DD71E1BECCAC80036C0C9 /* SPTableViewCell.m in Sources */,
-				3B4DD6FC1BECCA9D0036C0C9 /* SPArtistsController.m in Sources */,
-				3B4DD7001BECCA9D0036C0C9 /* SPCloudCell.m in Sources */,
 				3B395D411BECC71300B801CF /* SPBaiduSearchHotRequest.m in Sources */,
-				3B4DD6FD1BECCA9D0036C0C9 /* SPCloudController.m in Sources */,
 				3B4DD73E1BECCB2D0036C0C9 /* UIButton+Extension.m in Sources */,
-				3B4DD6FF1BECCA9D0036C0C9 /* SPCloudArtistType.m in Sources */,
 				3B4DD73D1BECCB2D0036C0C9 /* UIBarButtonItem+Extension.m in Sources */,
 				3B395D3D1BECC71300B801CF /* SPBaiduArtistGetListRequest.m in Sources */,
 				3B395D4D1BECC71300B801CF /* SPBaiduRespond.m in Sources */,
 				3B395D441BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRespond.m in Sources */,
 				3B4DD71B1BECCAC80036C0C9 /* SPTabBarSelectorView.m in Sources */,
+				3B4DD7641BECCE930036C0C9 /* SPAlbumController.m in Sources */,
 				3B395D431BECC71300B801CF /* SPBaiduRequest.m in Sources */,
+				3B4DD7681BECCE930036C0C9 /* SPCloudArtistType.m in Sources */,
 				3B395D421BECC71300B801CF /* SPBaiduSearchMergeRequest.m in Sources */,
-				3B4DD7011BECCA9D0036C0C9 /* SPSearchBar.m in Sources */,
+				3B4DD7691BECCE930036C0C9 /* SPCloudCell.m in Sources */,
 				3B4DD7411BECCB2D0036C0C9 /* UINavigationBar+Extension.m in Sources */,
+				3B4DD76A1BECCE930036C0C9 /* SPSearchBar.m in Sources */,
 				3B395D4B1BECC71300B801CF /* SPBaiduSearchHotRespond.m in Sources */,
 				3B4DD7421BECCB2D0036C0C9 /* UIView+Extension.m in Sources */,
 				3B395D5F1BECC74D00B801CF /* MUClassSet.m in Sources */,
+				3B4DD7671BECCE930036C0C9 /* SPHotPlayerListController.m in Sources */,
 				3B4DD73F1BECCB2D0036C0C9 /* UIColor+Extension.m in Sources */,
 				3B395D401BECC71300B801CF /* SPBaiduSearchCatalogSugRequest.m in Sources */,
 				3B4DD71F1BECCAC80036C0C9 /* SPTableViewController.m in Sources */,
@@ -939,13 +939,13 @@
 				3B395D501BECC71300B801CF /* AppDelegate.m in Sources */,
 				3B395D461BECC71300B801CF /* SPBaiduArtistGetInfoRespond.m in Sources */,
 				3B4DD7181BECCAC80036C0C9 /* SPNavigationController.m in Sources */,
-				3B4DD6FE1BECCA9D0036C0C9 /* SPHotPlayerListController.m in Sources */,
 				3B395D601BECC74D00B801CF /* MUPropertySet.m in Sources */,
 				3B395D621BECC74D00B801CF /* NSObject+Model.m in Sources */,
 				3B395D4C1BECC71300B801CF /* SPBaiduSearchMergeRespond.m in Sources */,
 				3B4DD71A1BECCAC80036C0C9 /* SPTabBar.m in Sources */,
 				D4D678E41BECBABE00B688E6 /* main.m in Sources */,
 				3B4DD7281BECCAF90036C0C9 /* SPTopView.m in Sources */,
+				3B4DD7651BECCE930036C0C9 /* SPArtistsController.m in Sources */,
 				3B4DD71C1BECCAC80036C0C9 /* SPTabBarViewController.m in Sources */,
 				3B395D491BECC71300B801CF /* SPBaiduDownloadRespond.m in Sources */,
 				3B4DD71D1BECCAC80036C0C9 /* SPTableView.m in Sources */,
