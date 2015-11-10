@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1DCF2666DB6D33E542DE6E2C /* libPods-SmartisanPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C40390238829C51492A6A6B2 /* libPods-SmartisanPlayer.a */; };
+		3B3139111BF1E2D50059A0DE /* SPSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3139101BF1E2D50059A0DE /* SPSearchController.m */; };
+		3B3139201BF1E3090059A0DE /* SPSearchSongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B31391B1BF1E3090059A0DE /* SPSearchSongCell.m */; };
+		3B3139241BF1E44C0059A0DE /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3139231BF1E44C0059A0DE /* MBProgressHUD+MJ.m */; };
 		3B395D381BECC71300B801CF /* BaiduTingAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395CFA1BECC71300B801CF /* BaiduTingAPI.m */; };
 		3B395D391BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395CFC1BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.m */; };
 		3B395D3A1BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B395D001BECC71300B801CF /* SPBaiduAlbumGetAlbumInfoRequest.m */; };
@@ -73,6 +76,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B31390F1BF1E2D50059A0DE /* SPSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearchController.h; sourceTree = "<group>"; };
+		3B3139101BF1E2D50059A0DE /* SPSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSearchController.m; sourceTree = "<group>"; };
+		3B31391A1BF1E3090059A0DE /* SPSearchSongCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearchSongCell.h; sourceTree = "<group>"; };
+		3B31391B1BF1E3090059A0DE /* SPSearchSongCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSearchSongCell.m; sourceTree = "<group>"; };
+		3B3139221BF1E44C0059A0DE /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		3B3139231BF1E44C0059A0DE /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		3B395CF91BECC71300B801CF /* BaiduTingAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduTingAPI.h; sourceTree = "<group>"; };
 		3B395CFA1BECC71300B801CF /* BaiduTingAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduTingAPI.m; sourceTree = "<group>"; };
 		3B395CFB1BECC71300B801CF /* NSMutableDictionary+SPBaiduParame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SPBaiduParame.h"; sourceTree = "<group>"; };
@@ -219,6 +228,15 @@
 				C40390238829C51492A6A6B2 /* libPods-SmartisanPlayer.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B3139211BF1E4380059A0DE /* MBProgressHUD+MJ */ = {
+			isa = PBXGroup;
+			children = (
+				3B3139221BF1E44C0059A0DE /* MBProgressHUD+MJ.h */,
+				3B3139231BF1E44C0059A0DE /* MBProgressHUD+MJ.m */,
+			);
+			path = "MBProgressHUD+MJ";
 			sourceTree = "<group>";
 		};
 		3B395CF51BECC71300B801CF /* Application */ = {
@@ -379,6 +397,7 @@
 			isa = PBXGroup;
 			children = (
 				3B395D2F1BECC71300B801CF /* Foundation+Log.m */,
+				3B3139211BF1E4380059A0DE /* MBProgressHUD+MJ */,
 				3B395D511BECC74D00B801CF /* Model */,
 				3B395D301BECC71300B801CF /* MUAudioPlayer */,
 				3B4DD7291BECCB2D0036C0C9 /* UIKit */,
@@ -606,6 +625,8 @@
 			children = (
 				3B4DD74D1BECCE930036C0C9 /* SPCloudController.h */,
 				3B4DD74E1BECCE930036C0C9 /* SPCloudController.m */,
+				3B31390F1BF1E2D50059A0DE /* SPSearchController.h */,
+				3B3139101BF1E2D50059A0DE /* SPSearchController.m */,
 				3B4DD74F1BECCE930036C0C9 /* SPHotPlayerListController.h */,
 				3B4DD7501BECCE930036C0C9 /* SPHotPlayerListController.m */,
 			);
@@ -624,6 +645,8 @@
 		3B4DD7541BECCE930036C0C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3B31391A1BF1E3090059A0DE /* SPSearchSongCell.h */,
+				3B31391B1BF1E3090059A0DE /* SPSearchSongCell.m */,
 				3B4DD7551BECCE930036C0C9 /* SPCloudCell.h */,
 				3B4DD7561BECCE930036C0C9 /* SPCloudCell.m */,
 				3B4DD7571BECCE930036C0C9 /* SPSearchBar.h */,
@@ -944,10 +967,13 @@
 				3B395D4C1BECC71300B801CF /* SPBaiduSearchMergeRespond.m in Sources */,
 				3B4DD71A1BECCAC80036C0C9 /* SPTabBar.m in Sources */,
 				D4D678E41BECBABE00B688E6 /* main.m in Sources */,
+				3B3139111BF1E2D50059A0DE /* SPSearchController.m in Sources */,
 				3B4DD7281BECCAF90036C0C9 /* SPTopView.m in Sources */,
 				3B4DD7651BECCE930036C0C9 /* SPArtistsController.m in Sources */,
 				3B4DD71C1BECCAC80036C0C9 /* SPTabBarViewController.m in Sources */,
+				3B3139241BF1E44C0059A0DE /* MBProgressHUD+MJ.m in Sources */,
 				3B395D491BECC71300B801CF /* SPBaiduDownloadRespond.m in Sources */,
+				3B3139201BF1E3090059A0DE /* SPSearchSongCell.m in Sources */,
 				3B4DD71D1BECCAC80036C0C9 /* SPTableView.m in Sources */,
 				3B395D4E1BECC71300B801CF /* Foundation+Log.m in Sources */,
 			);

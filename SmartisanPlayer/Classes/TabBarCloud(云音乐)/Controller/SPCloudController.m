@@ -10,7 +10,7 @@
 
 #import "SPCloudArtistType.h"
 
-//#import "SPSearchController.h"
+#import "SPSearchController.h"
 #import "SPHotPlayerListController.h"
 
 #import "SPSearchBar.h"
@@ -140,11 +140,11 @@ typedef enum : NSUInteger {
 
 #pragma mark - search bar delegate
 
-//- (void)searchBarPressReturnWithText:(NSString *)text {
-//    SPSearchController *controller = [[SPSearchController alloc] initWithQuery:text];
-//    controller.title = [NSString stringWithFormat:@"搜索\"%@\"", text];
-//    [self.navigationController pushViewController:controller animated:YES];
-//}
+- (void)searchBarPressReturnWithText:(NSString *)text {
+    SPSearchController *controller = [[SPSearchController alloc] initWithQuery:text];
+    controller.title = [NSString stringWithFormat:@"搜索\"%@\"", text];
+    [self.navigationController pushViewController:controller animated:YES];
+}
 
 - (NSArray *)tableData {
     if (!_tableData) {
