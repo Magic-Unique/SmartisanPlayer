@@ -1,13 +1,38 @@
 # SmartisanPlayer
-一个锤子风格的音乐播放器[本版本为Pods版本]
-A music player with the style of Smartisan.[this version is use CocoaPods]
 
-## Pods版本[version for Pods]
-  使用CocoaPods管理第三方框架, 重构app的内部逻辑结构, 基础功能尚未整理.
-  Manage framework with CocoaPods, but only for user interface.it will be update in future.
-  
-## Runable版本[version for runable]
-  拖代码的方式管理第三方框架, 已支持音乐下载以及在线播放, 其中包括Smartisan风格的唱片机播放界面.
-  如需要该版本代码, 请联系作者.
-  Manage framework with Code, include online-play, download, a playing-view like stylus.
-  If you want get the code for this version, please email me.
+一个锤子风格的音乐播放器
+
+
+## 下载必读
+
+这是一个 iOS 版本的音乐播放器. 其 UI 高仿锤子音乐播放器 Android 版. 仅供学习交流, 请勿用于商业用途.
+
+### 图片素材
+
+> 本节所指的图片素材均为**工程中的图片文件**, **而非**专辑封面, 歌手头像等图片.
+
+UI 素材(.png文件)大部分取自 *SmartisanPlayer v1.1.apk* 文件. 通过解包该文件获取高清图片组放入 Xcode 工程中.
+
+项目图片素材版权归**锤子科技**所有, 本项目仅学习使用, 不参与任何商业活动.
+
+### 音乐素材
+
+音乐素材以及音乐信息, 包括歌手信息, 专辑信息等全部来自**百度听服务器**.
+
+使用百度的**千千静听**的**私有接口**, 这些接口全部通过青花瓷抓包得到. 接口仅供学习使用, 请勿使用商业用途. 如出现商业纠纷则与作者无关.
+
+### 代码版权
+
+本项目代码全部开源, 所有作者写的代码未经工信部注册登记, 无任何版权, 仅供学习交流使用.
+
+## 关于版本
+
+本项目为作者学习 iOS 开发时独立完成的第一个 APP. 在开发过程中发现部分APP架构没有搭建完善, 故重写一个项目. 也因此出现两个版本的 Demo.
+
+### 旧版本
+
+已支持歌手排行榜, 音乐搜索, 音乐下载, 音乐在线播放, 音乐播放界面的 UI 交互等功能. 但架构考虑不周. 此版本代码没有上传至 Github, 如需该版本代码, 你可以联系作者.
+
+### 新版本
+
+新版本重新架构了APP框架, 但功能还在完善之中, 目前仅仅拥有部分的 UI 交互代码. 此版本的代码就是本 git 库代码. 该代码会在未来不断更新.
